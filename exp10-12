@@ -1,0 +1,28 @@
+exp 10
+$ git log --author="JohnDoe" --since="2024-01-01" --until="2024-12-31"
+
+Experiment 10 
+- notepad filename // create and update the file
+- git add filename // Add file to staging area 
+- git commit --author="JohnDoe <johndoe@gmail.com>" -m "commit message" 
+- git log --author="JohnDoe" --since="2025-01-01" --until="2025-12-31"  
+
+exp11
+$ git log -n 5
+
+Experiment 11
+- notepad filename 
+- git add filename 
+- git commit -m "commit message" 
+- Repeat above 3 steps more than 5 times - git log -n 5  
+
+exp 12
+$ git revert abc123
+
+Experiment 12
+- notepad filename
+- git add filename 
+- git commit -m "commit message"
+- Repeat above 3 steps
+- git log --oneline 
+- git revert <commit ID>
