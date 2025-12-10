@@ -1,0 +1,36 @@
+exp 7
+$ git tag v1.0
+$ git tag v1.0 <commit-SHA>
+
+Experiment 7 
+- notepad filename 
+- git add filename 
+- git commit -m "commit message here" 
+- git tag "v1.0" 
+- OR git tag "v1.0" <commit ID> 
+
+exp 8
+$ git cherry-pick <start-commit>^..<end-commit>
+$ git cherry-pick ABC123^..DEF456
+
+Experiment 8 
+- create and checkout new branch 
+- create file
+- add and commit 
+- checkout to main branch 
+- git cherry-pick <commit ID>  
+
+exp 9
+$ git show <commit-ID>
+For example:
+$ git show abc123
+$ git log -n 1 <commit-ID>
+For example:
+$ git log -n 1 abc123
+
+- notepad filename  
+- git add filename 
+- git commit -m "commit message" 
+- git log --oneline 
+- git show <commit ID> 
+- git log -n 1 <commit ID> 
