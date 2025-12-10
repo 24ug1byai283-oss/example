@@ -1,0 +1,43 @@
+exp 4
+$ git clone <repository_url>
+
+Experiment 4 
+git init 
+- vi/touch filename 
+- git add filename 
+- git commit -m "commit message here" 
+-> git clone <URL>  
+
+exp5
+$ git checkout <branch-name>
+$ git fetch origin
+$ git rebase origin/<branch-name>
+$ git rebase –continue
+$ git push origin <branch-name>
+
+Exp 5: 
+git init 
+- vi filename 
+- git add filename 
+- git commit -m "commit message here" 
+- git remote add origin https://github.com/ngyatheesh/demo24.git 
+- git fetch origin/main
+- git rebase origin/main
+- git push -u origin main 
+
+exp 6
+$ git checkout master
+$ git merge feature-branch -m "Your custom commit message here"
+
+Experiment 6
+- notepad filename 
+- git add filename 
+- git commit -m "commit message here" 
+- git branch "branch-name" 
+- git checkout "branch-name"
+- notepad filename 
+- git add filename 
+- git commit -m "commit message" 
+- git checkout master
+- git merge "branch-name" 
+- git log/show/status 
